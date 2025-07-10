@@ -25,6 +25,16 @@
     text-align: center;
 }
 
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+  .header__title {
+    max-width: 530px;
+    font-size: 75px;
+    line-height: 1;
+  }
+
+}
+
+
 .header__subheading {
     max-width: 720px;
     margin-bottom: 64px;
